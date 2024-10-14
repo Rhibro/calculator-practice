@@ -45,3 +45,4 @@ function convertCurrency() {
     document.getElementById('result').textContent = 
         `${sourceAmount} ${sourceCurrency} = ${convertedAmount.toFixed(2)} ${targetCurrency}`;
 }
+
