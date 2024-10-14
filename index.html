@@ -34,6 +34,23 @@
             <button onclick="backspace()" style="grid-column: span 2;">⌫</button>
         </div>
     </div>
+    <!-- Currency Converter -->
+    <div class="currency-converter">
+        <h2>Currency Converter</h2>
+        <input type="number" id="sourceAmount" placeholder="Enter amount">
+        <select id="sourceCurrency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="CAD">CAD</option>
+        </select>
+        <select id="targetCurrency">
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+            <option value="CAD">CAD</option>
+        </select>
+        <button onclick="convertCurrency()">Convert</button>
+        <p id="result"></p>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
